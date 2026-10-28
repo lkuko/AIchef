@@ -1,0 +1,50 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.local.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Runtime data
+.langgraph_api/
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+resources/*
+!resources/README.md
+
+# Next.js and Node.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local experiments and validation artifacts
+AIChef/
+hello.py
+test*.ipynb
+1.jpg
